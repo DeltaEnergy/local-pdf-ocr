@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local PDF OCR</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 20px;
+      }
+
+      h1 {
+        margin-bottom: 8px;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      input,
+      select {
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 16px;
+      }
+
+      button {
+        padding: 10px 16px;
+        cursor: pointer;
+      }
+
+      #status {
+        margin-top: 16px;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Local PDF OCR</h1>
+    <p>Upload a scanned PDF and convert it into a searchable PDF locally.</p>
+
+    <div class="card">
+      <input type="file" id="pdfInput" accept="application/pdf" />
+
+      <label for="qualitySelect">OCR Quality:</label>
+      <select id="qualitySelect">
+        <option value="fast">Fast OCR</option>
+        <option value="high">High Quality OCR</option>
+      </select>
+
+      <button id="ocrButton">Make Searchable PDF</button>
+
+      <div id="status">Make sure the backend is running first.</div>
+    </div>
+
+    <script src="upload.js"></script>
+  </body>
+</html>
