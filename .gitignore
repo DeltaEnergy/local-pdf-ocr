@@ -8,14 +8,16 @@ backend/build/
 backend/dist/
 backend/*.spec
 
-# Output files
+# OCR outputs
 backend/output/
+
+# Test/output files
 *.pdf
 *.txt
 
 # Release zips
 release/*.zip
 
-# Windows
+# Windows/macOS
 Thumbs.db
 .DS_Store
