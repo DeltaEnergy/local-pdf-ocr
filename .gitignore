@@ -21,3 +21,4 @@ release/*.zip
 # Windows/macOS
 Thumbs.db
 .DS_Store
+extension/web-ext-artifacts/
