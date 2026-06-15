@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo-readme.png" alt="Local PDF OCR logo" width="160">
+  <img src="logo-readme.png" alt="Local PDF OCR logo" width="220">
 </p>
 
 # Local PDF OCR
