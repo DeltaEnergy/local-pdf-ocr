@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="assets/logo-readme.png" alt="Local PDF OCR logo" width="160">
+</p>
 
 # Local PDF OCR
 
