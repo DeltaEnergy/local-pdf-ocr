@@ -29,6 +29,37 @@ This is an early prototype.
 * Complex layouts, maps, receipts, and tiny screenshot text may be imperfect
 * Backend must be started before using the extension
 
+## Installing the Extension
+
+This extension is currently loaded manually as a temporary extension.
+
+### Firefox
+
+1. Open Firefox.
+2. Go to:
+
+```txt
+about:debugging#/runtime/this-firefox
+```
+
+3. Click **Load Temporary Add-on**.
+4. Select the extension's `manifest.json` file.
+5. The extension should now appear in Firefox.
+
+### Waterfox
+
+1. Open Waterfox.
+2. Go to:
+
+```txt
+about:debugging#/runtime/this-firefox
+```
+
+3. Click **Load Temporary Add-on**.
+4. Select the extension's `manifest.json` file.
+5. The extension should now appear in Waterfox.
+
+
 ## How to Run
 
 1. Start the backend by double-clicking:
