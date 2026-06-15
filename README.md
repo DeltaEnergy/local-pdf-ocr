@@ -2,7 +2,7 @@
   <img src="assets/logo-readme.png" alt="Local PDF OCR logo" width="160">
 </p>
 
-
+# Local PDF OCR
 Local PDF OCR is a privacy-focused OCR tool for Firefox and Waterfox. It converts scanned or image-based PDFs into searchable PDFs using a local backend. Files are processed on the user's computer and are not uploaded to a cloud service.
 
 ## Features
